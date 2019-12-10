@@ -1,0 +1,201 @@
+body{
+    background-color: #000000; 
+    font-family: 'Graphik LCG', sans-serif;
+    color: #F8F8FF;
+	font-size: 16px; 
+	font-weight: bold; 
+	line-height: 25px; 
+	margin: 0 0 50px;
+}
+.whole{
+    background-color: #000000; 
+    font-family: 'Graphik LCG', sans-serif;
+    color: #000000;
+	font-size: 16px; 
+	font-weight: bold; 
+	line-height: 25px; 
+	margin: 0 0 50px;
+}
+/* homepage */
+#logo{
+    background-image:url(../pictures/logo.jpg);
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 14px;  
+    margin-left: 16px;
+    margin-right: 16px;
+    background-size: cover;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+}
+#home_zero{
+    background-image:url(../pictures/clear_wave.jpg);
+    background-repeat:no-repeat;
+  background-attachment:fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height:100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+#home_one{
+    padding-top: 60px;
+    padding-bottom: 60px;
+	text-align:center;
+	position:center;
+	background-position:center;
+}
+
+#home_two{
+    position: center;
+	text-align:center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.img_one{
+    background-image: url('../pictures/clear_wave.jpg');
+    background-size: cover;
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+	background-position:center;
+    position: relative; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.img_two{
+    background-image: url('../gifs/8ReL8eL.gif');
+    background-size: cover;
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+	background-position:center;
+    position: relative; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.fadeIn{
+    opacity: 0;
+}
+
+/* Support page */
+.firstContainer{
+    width: 300px;
+    height: 1000px;
+    margin:
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 99; /* stay in one place */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* loader */
+.box{
+  height:200px;
+  width: 200px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  overflow: hidden;
+}   
+.box, .b{
+  border-radius: 50%; 
+  border-right: 4px solid;
+  border-left: 4px solid;
+  border-top: 4px solid transparent !important;
+  border-bottom:4px solid transparent !important;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  animation: ro 2s infinite;
+}
+
+.box, .b2{
+  border-color: #FE1493;
+  height:100px; 
+  width: 100px;
+  animation-delay: .2s; 
+}
+.box, .b3{
+  border-color: #0F3245;
+  height:80px; 
+  width: 80px;
+  animation-delay: .4s; 
+}
+
+.box, .b4{
+  border-color: #40E0D0;
+  height:60px; 
+  width: 60px;
+  animation-delay: .6s; 
+}
+.box, .b1{
+  border-color: #ce96FB;
+  height:120px;
+  width:120px;
+}
+
+
+@keyframes ro{
+  0%{
+    transform: translate(-50%,-50%)rotate(0deg); 
+  }
+  50%{
+    transform: translate(-50%,-50%)rotate(-180deg); 
+  }
+  100%{
+    transform: translate(-50%,-50%)rotate(0deg); 
+  }
+}
+#rCss{
+  background-image:url(../pictures/wave.jpg);
+  width:100%;
+  height:100%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
